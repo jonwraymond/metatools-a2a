@@ -4,9 +4,9 @@ go 1.25.6
 
 require (
 	github.com/jonwraymond/tooldiscovery v0.3.0
-	github.com/jonwraymond/toolexec v0.2.0
+	github.com/jonwraymond/toolexec v0.2.1
 	github.com/jonwraymond/toolfoundation v0.3.0
-	github.com/jonwraymond/toolprotocol v0.1.6
+	github.com/jonwraymond/toolprotocol v0.1.7
 	gopkg.in/yaml.v3 v3.0.1
 )
 
