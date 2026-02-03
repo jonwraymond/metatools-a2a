@@ -52,8 +52,14 @@ github.com/google/jsonschema-go v0.4.2 h1:tmrUohrwoLZZS/P3x7ex0WAVknEkBZM46iALbc
 github.com/google/jsonschema-go v0.4.2/go.mod h1:r5quNTdLOYEz95Ru18zA0ydNbBuYoo9tgaYcxEYhJVE=
 github.com/google/uuid v1.6.0 h1:NIvaJDMOsjHA8n1jAhLSgzrAzy1Hgr+hNrb57e+94F0=
 github.com/google/uuid v1.6.0/go.mod h1:TIyPZe4MgqvfeYDBFedMoGGpEw/LqOeaOT+nhxU+yHo=
-github.com/jonwraymond/toolexec v0.1.4 h1:GJcfUaG+dMzOYIvA7r06FVaVqLHSVjm5UTgtLsxu6c8=
-github.com/jonwraymond/toolexec v0.1.4/go.mod h1:4So5zZuLZobwKop98wu1CqotKQvXZGqPuVLEkc44FfQ=
+github.com/jonwraymond/tooldiscovery v0.3.0 h1:RbyDF5SMQIT+emiqiFgPvp17z5d/rbjxMPFFxxg+amA=
+github.com/jonwraymond/tooldiscovery v0.3.0/go.mod h1:GWUQ6gC9197ATs4iAdQufJnWIuPnFxtcLF5WpOKZqVI=
+github.com/jonwraymond/toolexec v0.2.0 h1:lVGTbcaCnmhuFLEiyO1UqDZc9QNyC2fBOJvpXn4CgzY=
+github.com/jonwraymond/toolexec v0.2.0/go.mod h1:i6Nz9Iq7SSicjItZzBfuvv2o96yzy6JCa0ddOsJN4l8=
+github.com/jonwraymond/toolfoundation v0.3.0 h1:lRmmGeImojZk1iTpgjQDHGieel/IiTbsLlQe13UrRng=
+github.com/jonwraymond/toolfoundation v0.3.0/go.mod h1:sUvAa1lxc/l57jdC+hAQVWKky3wpobDB2sNo40lQSCY=
+github.com/jonwraymond/toolprotocol v0.1.6 h1:XNOnPWPmxNSyDul0uGTRXWzdU+YDvWRyJhzOytU3H6U=
+github.com/jonwraymond/toolprotocol v0.1.6/go.mod h1:G5a3hJ63aPvpMj719eyZ7kcyqkct6M5tanA6O/98hBE=
 github.com/json-iterator/go v1.1.12 h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=
 github.com/json-iterator/go v1.1.12/go.mod h1:e30LSqwooZae/UwlEbR2852Gd8hjQvJoHmT4TnhNGBo=
 github.com/modelcontextprotocol/go-sdk v1.2.0 h1:Y23co09300CEk8iZ/tMxIX1dVmKZkzoSBZOpJwUnc/s=
@@ -61,8 +67,9 @@ github.com/modelcontextprotocol/go-sdk v1.2.0/go.mod h1:6fM3LCm3yV7pAs8isnKLn07o
 github.com/modern-go/concurrent v0.0.0-20180228061459-e0a39a4cb421/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=
 github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd/go.mod h1:6dJC0mAP4ikYIbvyc7fijjWJddQyLn8Ig3JB5CqoB9Q=
-github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/modern-go/reflect2 v1.0.2/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
+github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee h1:W5t00kpgFdJifH4BDsTlE89Zl93FEloxaWZfGcifgq8=
+github.com/modern-go/reflect2 v1.0.3-0.20250322232337-35a7c28c31ee/go.mod h1:yWuevngMOJpCy52FWWMvUC8ws7m/LJsjYzDa0/r8luk=
 github.com/mschoch/smat v0.2.0 h1:8imxQsjDm8yFEAVBe7azKmKSgzSkZXDuKkSq9374khM=
 github.com/mschoch/smat v0.2.0/go.mod h1:kc9mz7DoBKqDyiRL7VZN8KvXQMWeTaVnttLRXOlotKw=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
