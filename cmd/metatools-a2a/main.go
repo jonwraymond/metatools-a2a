@@ -78,6 +78,7 @@ func main() {
 }
 
 func loadBootstrap(path string, disc *discovery.Discovery) error {
+	// #nosec G304 -- bootstrap file is operator-supplied and intentionally flexible.
 	data, err := os.ReadFile(path)
 	if err != nil {
 		return err

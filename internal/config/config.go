@@ -65,6 +65,7 @@ func Load(path string) (Config, error) {
 		path = os.Getenv("METATOOLS_A2A_CONFIG")
 	}
 	if path != "" {
+		// #nosec G304 -- config path is explicitly user-supplied via CLI/env.
 		data, err := os.ReadFile(path)
 		if err != nil {
 			return Config{}, fmt.Errorf("read config: %w", err)
