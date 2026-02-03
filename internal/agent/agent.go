@@ -10,6 +10,7 @@ import (
 	"github.com/jonwraymond/toolexec/run"
 	"github.com/jonwraymond/toolfoundation/adapter"
 	"github.com/jonwraymond/toolfoundation/model"
+	"github.com/jonwraymond/toolprotocol/a2a"
 	"github.com/jonwraymond/toolprotocol/wire"
 )
 
@@ -90,13 +91,13 @@ func (a *Agent) ListSkills(ctx context.Context) ([]wire.Tool, error) {
 }
 
 // Invoke runs a skill via the runner.
-func (a *Agent) Invoke(ctx context.Context, skillID string, args map[string]any) (InvokeResult, error) {
+func (a *Agent) Invoke(ctx context.Context, skillID string, args map[string]any) (a2a.InvokeResult, error) {
 	if a.Runner == nil {
-		return InvokeResult{}, fmt.Errorf("runner not configured")
+		return a2a.InvokeResult{}, fmt.Errorf("runner not configured")
 	}
 	result, err := a.Runner.Run(ctx, skillID, args)
 	if err != nil {
-		return InvokeResult{}, err
+		return a2a.InvokeResult{}, err
 	}
 
 	content := []wire.Content{
@@ -105,13 +106,7 @@ func (a *Agent) Invoke(ctx context.Context, skillID string, args map[string]any)
 			Text: stringify(result.Structured),
 		},
 	}
-	return InvokeResult{Content: content}, nil
-}
-
-// InvokeResult captures invocation output.
-type InvokeResult struct {
-	Content []wire.Content
-	Meta    map[string]any
+	return a2a.InvokeResult{Content: content}, nil
 }
 
 func (a *Agent) canonicalTools(ctx context.Context) ([]adapter.CanonicalTool, error) {
