@@ -1,6 +1,6 @@
 module github.com/jonwraymond/metatools-a2a
 
-go 1.25.6
+go 1.25.7
 
 require (
 	github.com/jonwraymond/tooldiscovery v0.3.0
